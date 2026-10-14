@@ -1,0 +1,29 @@
+## .NET / Visual Studio
+*.user
+*.suo
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+*.log
+
+# NuGet
+*.nupkg
+packages/
+
+# Secrets
+appsettings.Production.json
+appsettings.Secrets.json
+*.env
+.env
+
+# Build outputs
+publish/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+coverage/
